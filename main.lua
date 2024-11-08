@@ -21,10 +21,8 @@ gm.pre_script_hook(gm.constants.damager_attack_process, function(self, other, re
         if Turret ~= nil and Instance.exists(Turret) then
             if args[1].value.x > Turret.x then
                 args[1].value.knockback_direction = 1
-                log.warning("right")
             else
                 args[1].value.knockback_direction = -1
-                log.warning("left")
             end
         else
             if args[1].value.x > player.value.x then
