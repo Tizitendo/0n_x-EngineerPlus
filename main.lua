@@ -15,8 +15,8 @@ end)
 
 gm.pre_script_hook(gm.constants.damager_attack_process, function(self, other, result, args)
     if args[1].value.parent == player.value and args[1].value.hit_effect == 1632.0 and args[1].value.knockback == 10 then
-        if args[1].value.stun < 1 then
-            args[1].value.stun = 1
+        if args[1].value.stun < 0.5 then
+            args[1].value.stun = 0.5
         end
 
         --change knockback to always be away from turret/player

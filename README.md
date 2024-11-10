@@ -1,7 +1,8 @@
 # Onyx-LaserTurretPlus
 
-- Engineers laser turret only gets targeted for half it's lifetime (the first 4 seconds)
-- might increase laser hitbox in the future
+- Engineers laser turret won't get targeted after the first 6 seconds (the last 2 seconds after firing)
+- shockwave mine is now more reliable (always knocks enemies away from laserturret or you)
+- gave shockwave mine a small stun
 
 ## Special Thanks To
 * The Return Of Modding Discord
